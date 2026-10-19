@@ -404,7 +404,7 @@ saveRDS(results, "brca_DESeq_results.rds")
 # read in later using: results = readRDS("brca_DESeq_results.rds")
 ```
 
-Prepare results dataframe for EnhancedVolcano plotting. Add two columns, "-log10(padj)" and "gene_name". Fill in these columns appropriately.
+Prepare results dataframe for EnhancedVolcano plotting. Add column "gene_name". Fill in the column appropriately.
 ```{r}
 
 ```
@@ -415,7 +415,7 @@ Now we will use the EnhancedVolcano package to plot our results. The code is alr
 EnhancedVolcano(results,
                 lab = results$gene_name,
                 x = 'log2FoldChange',
-                y = '-log10(padj)',
+                y = 'padj',
                 title = 'Sample Definition: Tumor vs Normal Tissue',
                 pointSize = 1.0,
                 labSize = 5.0)
