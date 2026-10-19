@@ -14,8 +14,6 @@ updated: 10/18/2026
 -Upload this R Notebook to your GitHub and submit the link to your Repo on Brightspace.
 -Include any graphs or figures created in this assignment in the folder with your R notebook with descriptive file names.
 
-Since this is an optional partner activity, it is okay if your answers are the same as your partner’s as long as everyone understands it and could explain it in their own words if asked. Each person must individually push their code to Github. *At the top of your R Notebook, write the name of you and your partner(s) as a comment.*
-
 ***Complete the following coding activity and answer any following questions as comments in your R Notebook***
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
